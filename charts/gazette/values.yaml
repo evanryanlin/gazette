@@ -42,7 +42,7 @@ etcd: "etcd-cluster-client:2379"
 # Use the default Minio access key & secret key fixtures.
 cloudFS: "s3://"
 aws:
-  endpoint: "http://minio-minio-svc:9000"
+  endpoint: "http://minio-svc:9000"
   accessKeyID: AKIAIOSFODNN7EXAMPLE
   secretKey: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
   defaultRegion: us-east-1
